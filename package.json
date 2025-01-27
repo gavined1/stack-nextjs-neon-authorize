@@ -8,8 +8,8 @@
     "start": "next start",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "lint": "next lint",
-    "drizzle:generate": "drizzle-kit generate",
-    "drizzle:migrate": "drizzle-kit migrate"
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "@neondatabase/serverless": "^0.10.4",

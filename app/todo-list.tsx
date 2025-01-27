@@ -75,7 +75,6 @@ export async function TodoList() {
   if (todos === null) {
     return <div style={styles.loading}>Loading...</div>;
   }
-
   // Calculate the number of pending todos
   const pendingTodos = todos.filter((todo) => !todo.isComplete).length;
 
