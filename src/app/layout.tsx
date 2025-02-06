@@ -1,6 +1,6 @@
 import { StackProvider, StackTheme } from "@stackframe/stack";
-import { stackServerApp } from "../stack";
-import "../styles/globals.css";
+import { stackServerApp } from "@/utils/stack";
+import "@/styles/globals.css";
 
 export default function RootLayout({
   children,
@@ -16,4 +16,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+} 

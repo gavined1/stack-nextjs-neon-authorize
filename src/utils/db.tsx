@@ -1,7 +1,7 @@
-import * as schema from "@/app/schema";
+import * as schema from "@/utils/schema";
 import { neon } from "@neondatabase/serverless";
 import { drizzle, NeonHttpDatabase } from "drizzle-orm/neon-http";
-import { stackServerApp } from "@/stack";
+import { stackServerApp } from "@/utils/stack";
 
 export async function fetchWithDrizzle<T>(
   callback: (
